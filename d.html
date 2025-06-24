@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авилон — Ваш выбор премиальных автомобилей</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Inter (для общего текста) и Poppins (для заголовков) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome для иконок -->
+    <link rel="stylesheet" href="d.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-content">
+            <a href="#" class="logo">АВИЛОН</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Новые авто</a></li>
+                    <li><a href="#">Авто с пробегом</a></li>
+                    <li><a href="#">Сервис</a></li>
+                    <li><a href="#">Кредит и лизинг</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header-utility">
+                <a href="tel:+74950000000" class="phone-number"><i class="fas fa-phone"></i> +7 (495) 000-00-00</a>
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+                <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-video-wrapper">
+                <!-- Замените на реальное видео или изображение. Видео предпочтительнее для динамики. -->
+               
+                    <!-- Добавьте фоллбэк изображение, если видео не загрузится -->
+                    <img src="132.jpeg" alt="Автомобиль на дороге">
+
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content container">
+                <h1>Ваш Путь к Совершенству</h1>
+                <p>Откройте мир премиальных автомобилей с Авилон. Элегантность, мощь и инновации ждут вас.</p>
+                <a href="#car-catalog" class="btn btn-primary">Выбрать автомобиль</a>
+            </div>
+        </section>
+
+        <section class="quick-search-filters container">
+            <h2>Быстрый поиск</h2>
+            <form class="search-form">
+                <select name="make">
+                    <option value="">Марка</option>
+                    <option value="mercedes">Mercedes-Benz</option>
+                    <option value="bmw">BMW</option>
+                    <option value="audi">Audi</option>
+                    <option value="lexus">Lexus</option>
+                </select>
+                <select name="model">
+                    <option value="">Модель</option>
+                    <option value="c-class">C-Class</option>
+                    <option value="x5">X5</option>
+                    <option value="a6">A6</option>
+                </select>
+                <select name="body-type">
+                    <option value="">Тип кузова</option>
+                    <option value="sedan">Седан</option>
+                    <option value="suv">Внедорожник</option>
+                    <option value="coupe">Купе</option>
+                </select>
+                <input type="text" placeholder="Мин. цена">
+                <input type="text" placeholder="Макс. цена">
+                <button type="submit" class="btn btn-secondary">Найти</button>
+            </form>
+        </section>
+
+        <section class="key-features container">
+            <h2>Наши преимущества</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-car"></i>
+                    <h3>Широкий выбор</h3>
+                    <p>Более 1000 автомобилей в наличии.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Выгодный Trade-in</h3>
+                    <p>Обменяйте ваш автомобиль на новый.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-tools"></i>
+                    <h3>Сертифицированный сервис</h3>
+                    <p>Профессиональное обслуживание.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h3>Гибкие условия кредита</h3>
+                    <p>Подберем оптимальную программу.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="car-catalog" class="car-catalog container">
+            <h2>Модельный ряд</h2>
+            <div class="catalog-grid">
+                <div class="car-card">
+                    <img src="прокурорский мерен.jpg" alt="Mercedes-Benz E-Class">
+                    <h3>Mercedes-Benz E-Class</h3>
+                    <p>От 6 500 000 ₽</p>
+                    <a href="#" class="btn btn-primary">Подробнее</a>
+                </div>
+                <div class="car-card">
+                    <img src="х5.jpeg" alt="BMW X5">
+                    <h3>BMW X5</h3>
+                    <p>От 8 200 000 ₽</p>
+                    <a href="#" class="btn btn-primary">Подробнее</a>
+                </div>
+                <div class="car-card">
+                    <img src="аудииииииииииииииииииииииииииии ку7.jpg" alt="Audi Q7">
+                    <h3>Audi Q7</h3>
+                    <p>От 7 800 000 ₽</p>
+                    <a href="#" class="btn btn-primary">Подробнее</a>
+                </div>
+                <div class="car-card">
+                    <img src="лекхус.jpg" alt="Lexus ES">
+                    <h3>Lexus ES</h3>
+                    <p>От 5 900 000 ₽</p>
+                    <a href="#" class="btn btn-primary">Подробнее</a>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn btn-secondary large-btn">Посмотреть весь каталог</a>
+            </div>
+        </section>
+
+       
+        <section class="interior-block container">
+            <h2>Изучите интерьер</h2>
+            <p class="section-description">Каждая деталь продумана для вашего комфорта и удовольствия от вождения.</p>
+            <div class="interior-main-image">
+                <img src="инта (2).jpg" alt="Интерьер автомобиля">
+            </div>
+            <div class="interior-thumbnails">
+                <img src="инта (3).jpg" alt="Деталь интерьера 1">
+                <img src="инта (4).jpg" alt="Деталь интерьера 2">
+                <img src="инта (5).jpg" alt="Деталь интерьера 3">
+                <img src="инта.jpg" alt="Деталь интерьера 4">
+            </div>
+        </section>
+
+        <section class="news-promotions container">
+            <h2>Новости и акции</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <img src="первый дил.webp" alt="Новость 1">
+                    <h4>АГ «Авилон» стала первым официальным дилером Lixiang в России</h4>
+                    <p>Автомобильная группа «Авилон» первой в России получила статус официального дилера премиального китайского бренда гибридных автомобилей и электромобилей Lixiang (входит в группу Li Auto).</p>
+                    <a href="#" class="read-more">Подробнее <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="news-card">
+                    <img src="передал гибрид.webp" alt="Новость 2">
+                    <h4>АВИЛОН EXEED Легенда передал гибридный внедорожник EXEED EXLANTIX ET первому владельцу</h4>
+                    <p>В конце апреля стартовали продажи инновационного гибридного внедорожника EXEED EXLANTIX ET, и уже в начале мая первый клиент стал обладателем этого премиального автомобиля. Александр выбрал модель в элегантном цвете BAMBOO GREY с белым кожаным салоном.</p>
+                    <a href="#" class="read-more">Подробнее <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="news-card">
+                    <img src="центр рокс.webp" alt="Новость 3">
+                    <h4>“АВИЛОН Легенда” стал дилерским центром ROX Motor</h4>
+                    <p>17 апреля 2025 года в дилерском центре “АВИЛОН Легенда” состоялось важное событие для авторитейла России — открытие нового дилерского предприятия ROX Motor.</p>
+                    <a href="#" class="read-more">Подробнее <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn btn-secondary large-btn">Все новости и акции</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-column">
+                <h4>О компании</h4>
+                <ul>
+                    <li><a href="#">История</a></li>
+                    <li><a href="#">Наши дилерства</a></li>
+                    <li><a href="#">Вакансии</a></li>
+                    <li><a href="#">Новости</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Услуги</h4>
+                <ul>
+                    <li><a href="#">Новые автомобили</a></li>
+                    <li><a href="#">Авто с пробегом</a></li>
+                    <li><a href="#">Сервис и ремонт</a></li>
+                    <li><a href="#">Запчасти</a></li>
+                    <li><a href="#">Кредит и страхование</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Покупателям</h4>
+                <ul>
+                    <li><a href="#">Тест-драйв</a></li>
+                    <li><a href="#">Trade-in</a></li>
+                    <li><a href="#">Запись на сервис</a></li>
+                    <li><a href="#">Контакты дилерских центров</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Контакты</h4>
+                <p>г. Москва, ул. Примерная, 10</p>
+                <p>+7 (495) 000-00-00</p>
+                <p>info@avilon.ru</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="app-links">
+                    <a href="#" aria-label="App Store"><i class="fab fa-app-store-ios"></i> App Store</a>
+                    <a href="#" aria-label="Google Play"><i class="fab fa-google-play"></i> Google Play</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Авилон. Все права защищены.</p>
+                <p><a href="#">Политика конфиденциальности</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Простая JS для переключения мобильного меню
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.main-nav').classList.toggle('active');
+            this.classList.toggle('active'); // Изменить иконку бургера
+        });
+
+        // Демонстрация для 3D-контролов (без реальной 3D-логики)
+        document.querySelectorAll('.color-swatch').forEach(button => {
+            button.addEventListener('click', () => {
+                document.querySelectorAll('.color-swatch').forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                // Здесь будет JS для смены цвета 3D модели
+                console.log('Выбран цвет:', button.dataset.color);
+            });
+        });
+
+        document.querySelectorAll('.env-button').forEach(button => {
+            button.addEventListener('click', () => {
+                document.querySelectorAll('.env-button').forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                // Здесь будет JS для смены окружения 3D модели
+                console.log('Выбрано окружение:', button.dataset.env);
+            });
+        });
+    </script>
+</body>
+</html>
